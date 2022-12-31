@@ -5,6 +5,7 @@ name: Start
 on:
    push:
    gollum:
+   workflow_dispatch:
    schedule:
        - cron: '30 22 * * *'
 
